@@ -39,15 +39,15 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('about') }}">{{ __('About') }}</a>
+                            <a class="nav-link" href="{{ route('page','about') }}">{{ __('About') }}</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('contact') }}">{{ __('Contact us') }}</a>
+                            <a class="nav-link" href="{{ route('page','contact') }}">{{ __('Contact us') }}</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('terms') }}">{{ __('Terms') }}</a>
+                            <a class="nav-link" href="{{ route('page', 'terms') }}">{{ __('Terms') }}</a>
                         </li>
                         <!-- Authentication Links -->
                         @guest
